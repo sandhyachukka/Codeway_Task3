@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>task3</title>
+    <style>
+        body{
+            background-color:#090b16ec;
+        }
+       #bar{
+            display: flex;
+            flex-direction: row;
+            background-color:#090b16ec;
+            height:90px ;
+            width: 100%;
+            color: white;
+            font-size:25px; 
+            position :relative;
+        }
+        #i1{
+            width:30px;
+            height:30px ;
+            background-color: pink;
+            position: relative;
+            top:10px;
+        }
+        #i2{
+            width:160px;
+            height:60px ;
+            position: relative;
+            top:1px
+        }
+        #b1{
+            position: relative;
+            left:5px;
+            top:20px;
+        }
+        #b2{
+            position: relative;
+            left:50px;
+            top:20px;
+        }
+        #b3{
+            position: relative;
+            left:80px;
+            top:32px;
+        }
+        #b4{
+            position: relative;
+            left:120px;
+            top:32px;
+        }
+        #b5{
+            position: relative;
+            left:160px;
+            top:32px;
+        }
+        #b6{
+            position: relative;
+            left:200px;
+            top:32px;
+        }
+        #b7{
+            position: relative;
+            left:240px;
+            top:32px;
+        }
+        #b8{
+            position: relative;
+            left:540px;
+            top:32px;
+            color: white;
+        }
+        #b9{
+            position: relative;
+            left:570px;
+            top:32px;
+        }
+        #b10{
+            position: relative;
+            left:600px;
+            top:32px;
+        }
+        #bt1{
+            background-color: rgb(79, 134, 243);
+            color: white;
+            height: 40px;
+            border-radius: 10px;
+        }
+        #t{
+            background-color: #090b16ec;
+            color: white;
+        }
+        #i4{
+            width: 1350px;
+            height:500px;
+            border-radius: 10px;
+            position:relative;
+            left: 75px;
+            z-index: 1;
+        }
+        #d1{
+            height:500px ;
+            width: 650px;
+            opacity: 0.7;
+            background-color: black;
+            box-shadow: 9px 1px 9px black;
+            z-index: 2;
+            position: absolute;
+            top:117px;
+            left:75px;
+        }
+        #i5{
+            width:270px;
+            height: 350px;
+            border-radius: 6px;
+        }
+        #bar2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        h1{
+            color: white;
+            position: absolute;
+            left: 140px;
+            top: 50px;
+        }
+        p{
+            color:white;
+            position: absolute;
+            left: 40px;
+            top: 160px;
+        }
+        h3{
+            color: white;
+            position: absolute;
+            left: 140px;
+            top: 100px;
+        }
+        h2{
+            color: white;
+            position: relative;
+            left: 30px;
+        }
+        #bar3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #i6{
+            width:270px;
+            height:350px;
+            border-radius: 6px; 
+        }
+        #i7{
+            height: 18px;
+            width: 18px;
+            position: absolute;
+            right: 11px;
+            top: 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="bar">
+            <div id="b1"><img id="i1" src="https://cdn2.vectorstock.com/i/1000x1000/46/36/list-white-color-icon-vector-16854636.jpg"></div>
+            <div id="b2"><img id="i2"src="https://images.gizbot.com/img/2021/08/disney-plus-hotstar-gizbot-1628771934.jpg"></div>
+            <div id="b3">TV</div>
+            <div id="b4">MOVIES</div>
+            <div id="b5">SPORTS</div>
+            <div id="b6">Disney+</div>
+            <div id="b7">KIDS</div>
+            <div id="b8"><input id="t"placeholder="Search"><img id="i7" src="https://cdn-icons-png.flaticon.com/128/11741/11741045.png"></div>
+            <div id="b9"><button id="bt1">SUBSCRIBE</button></div>
+            <div id="b10">LOGIN</div>    
+        </div><br>
+        <div id="d2">
+              <img id="i4"src="https://cdn.wallpapersafari.com/92/88/TnrYs7.png">
+            <div id="d1"><h1>Frozen II</h1><br>
+            <h3>(2019 - Fantasy/Adventure - 1hr 43min)</h3>  
+            <p>- Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.</p></div></div>
+        <h2>Recommended For You</h2>
+        <div id="bar2">
+                <img id="i5"src="https://vignette.wikia.nocookie.net/disney/images/2/24/Enchanted_-_Poster_-_Giselle_and_Queen_Narissa.jpg/revision/latest?cb=20160124173432">
+                <img id="i5"src="https://www.themoviedb.org/t/p/original/rCykGq8ZL4UZ7UzApeoKOzLaapF.jpg">
+                <img id="i5"src="https://www.themoviedb.org/t/p/original/luNLDY3zc76PWVkKlOpSSlPAnYH.jpg">
+                <img id="i5"src="https://www.themoviedb.org/t/p/original/adMZmqi7LlZB3I8BIE6MpPdzOlG.jpg">
+                <img id="i5"src="https://akns-images.eonline.com/eol_images/Entire_Site/2014615/rs_634x890-140715121921-634.Sharknado-Movie-Poster.jl.071514.jpg?fit=around%7C776:1090&output-quality=90&crop=776:1090;center,top">
+        </div>
+        <h2>New To Disney+</h2>
+        <div id="bar3">
+            <img id="i6"src="https://tse1.mm.bing.net/th?id=OIP._rIzhDoaqYczvwjD89Wj6wHaJ4&pid=Api&P=0&h=180">
+            <img id="i6"src="https://www.liveabout.com/thmb/jL--iR5YEPYwHEQLMU6_Sb4sxC4=/1920x0/filters:no_upscale():max_bytes(150000):strip_icc()/91nqxq0WZL._RI_-5c857e6446e0fb00012c6702.jpg">
+            <img id="i6"src="https://www.themoviedb.org/t/p/original/136NWLPDIKf193xV9GTmaJ4p6mn.jpg">
+            <img id="i6"src="https://i.pinimg.com/originals/fd/a1/c1/fda1c19b552bd1f4deb8d9f507bc06d4.jpg">
+            <img id="i6"src="https://lumiere-a.akamaihd.net/v1/images/p_theprincessandthefrog_20499_1c5f55a1.jpeg">
+        </div>    
+    </body>
+</html>
